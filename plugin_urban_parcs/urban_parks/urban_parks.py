@@ -214,15 +214,7 @@ class UrbanParks:
             def aff_1() :
                  player = layers[0].layer()
                  self.iface.showAttributeTable(player)
-                # player = layers[0].layer()
-                # name= self.dlg.combo_2.currentText()
-                # self.iface.mapCanavas().setSelectionColor(QColor('yellow'))
-                # player.selectByExpression(" \"name\"='{}'  ".format(name))
-                # selectfeature =player.selectedFeatures()
-                # self.iface.mapCanavas().zoomToSelected(selectfeature)
-               
-
-
+            
         def area_():
                 i = self.dlg.combo_2.currentText()
                 alayer = layers[0].layer()
